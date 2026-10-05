@@ -1,0 +1,32 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Data & Storage (Face Embeddings Database)
+data/
+*.pkl
+*.pickle
+
+# Downloaded Neural Network Model Weights (YuNet & SFace ONNX)
+models/
+*.onnx
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs & Temporary Files
+*.log
+tmp/
